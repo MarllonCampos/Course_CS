@@ -50,6 +50,7 @@ class Aula16 {
     Console.WriteLine("Deseja realizar a operação novamente?");
     Console.WriteLine("[s] | Sim");
     Console.WriteLine("[n] | Não");
+    Console.ForegroundColor = ConsoleColor.Gray;
     escolha=char.Parse(Console.ReadLine());
 
     switch(escolha){
