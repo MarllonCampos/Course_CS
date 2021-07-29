@@ -6,6 +6,7 @@ class Aula16 {
 
     int tempo=0;
     char escolha;
+    Console.Title = "Teste";
     inicio:
 
     Console.Clear();
@@ -45,6 +46,7 @@ class Aula16 {
     }
 
     refazer:
+    Console.ForegroundColor = ConsoleColor.Magenta;
     Console.WriteLine("Deseja realizar a operação novamente?");
     Console.WriteLine("[s] | Sim");
     Console.WriteLine("[n] | Não");
