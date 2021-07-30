@@ -45,7 +45,16 @@ class Aula23
     Console.ForegroundColor = ConsoleColor.Gray;
     Console.WriteLine("-----------------------------");
 
-    
+    Console.ForegroundColor = ConsoleColor.DarkBlue;
+    //  public void CopyTo(Ar_destino, a_partir_desta_pos);
+    Console.WriteLine("CopyTo");
+    vetor1.CopyTo(vetor3,0);
+    foreach(int n in vetor3) {
+      Console.WriteLine(n);
+    }
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------");
+
 
 
 
