@@ -72,7 +72,16 @@ class Aula23
 
 
 
-   
+    Console.ForegroundColor = ConsoleColor.DarkRed;
+    // public int GetUpperBound(dimensão)
+    Console.WriteLine("GetUpperBound");
+    int MaiorIndiceVetor=vetor1.GetUpperBound(0);
+    int MaiorIndiceMatriz_D1=matriz.GetUpperBound(1);
+    Console.WriteLine("Maior índice do vetor1 {0}",MaiorIndiceVetor);
+    Console.WriteLine("Maior índice da matriz {0}",MaiorIndiceMatriz_D1);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------\n");
+
 
 
 
