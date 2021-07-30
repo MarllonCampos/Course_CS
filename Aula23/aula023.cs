@@ -60,7 +60,6 @@ class Aula23
 
 
 
-
     Console.ForegroundColor = ConsoleColor.DarkCyan;
     // public get LowerBound(dimensão);
     Console.WriteLine("GetLowerBound");
@@ -145,7 +144,32 @@ class Aula23
     Console.WriteLine("-----------------------------\n");
 
 
+    // public static void Sort (array);
+    Console.WriteLine("Sort");
+    Array.Sort(vetor1);
+    Array.Sort(vetor2);
+    Array.Sort(vetor3);
+    Console.ForegroundColor = ConsoleColor.DarkBlue;
+    Console.WriteLine("Vetor1");
+    foreach(int n in vetor1) {
+      Console.WriteLine(n);
+    }
 
+    Console.ForegroundColor = ConsoleColor.DarkCyan;
+    Console.WriteLine("\nVetor2");
+    foreach(int n in vetor1) {
+      Console.WriteLine(n);
+    }
+
+    Console.ForegroundColor = ConsoleColor.DarkGreen;
+    Console.WriteLine("\nVetor3");
+    foreach(int n in vetor1) {
+      Console.WriteLine(n);
+    }
+
+
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------\n");
 
 
 
