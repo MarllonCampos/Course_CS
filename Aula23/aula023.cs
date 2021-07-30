@@ -19,14 +19,14 @@ class Aula23
 
 
     Console.ForegroundColor = ConsoleColor.Blue;
+    // public static int BinarySearch(array,valor)
+    Console.WriteLine("BinarySearch");
     Console.WriteLine("Elementos do vetor 1");
     foreach (int n in vetor1)
     {
       Console.WriteLine(n);
     }
 
-    // public static int BinarySearch(array,valor)
-    Console.WriteLine("BinarySearch");
     int procurado = 33;
     int pos = Array.BinarySearch(vetor1, procurado);
     Console.WriteLine("Valor {0} está na posição {1}", procurado, pos);
@@ -55,6 +55,15 @@ class Aula23
     {
       Console.WriteLine(n);
     }
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------\n");
+
+
+    Console.ForegroundColor = ConsoleColor.Blue;
+    // public long GetLongLength(dimensao)
+    Console.WriteLine("GetLongLenght");
+    long qtdeElementosVetor = vetor1.GetLongLength(0);
+    Console.WriteLine("Quantidade de elementos {0}", qtdeElementosVetor);
     Console.ForegroundColor = ConsoleColor.Gray;
     Console.WriteLine("-----------------------------\n");
 
@@ -151,19 +160,22 @@ class Aula23
     Array.Sort(vetor3);
     Console.ForegroundColor = ConsoleColor.DarkBlue;
     Console.WriteLine("Vetor1");
-    foreach(int n in vetor1) {
+    foreach (int n in vetor1)
+    {
       Console.WriteLine(n);
     }
 
     Console.ForegroundColor = ConsoleColor.DarkCyan;
     Console.WriteLine("\nVetor2");
-    foreach(int n in vetor1) {
+    foreach (int n in vetor1)
+    {
       Console.WriteLine(n);
     }
 
     Console.ForegroundColor = ConsoleColor.DarkGreen;
     Console.WriteLine("\nVetor3");
-    foreach(int n in vetor1) {
+    foreach (int n in vetor1)
+    {
       Console.WriteLine(n);
     }
 
