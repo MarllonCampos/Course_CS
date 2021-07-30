@@ -106,7 +106,7 @@ class Aula23
 
     Console.ForegroundColor = ConsoleColor.DarkMagenta;
     // public static int indexOf(array,valor);
-    Console.WriteLine("indexOf");
+    Console.WriteLine("IndexOf");
     int indice1 = Array.IndexOf(vetor1, 3);
     Console.WriteLine("Indice do primeiro valor 3: {0}", indice1);
 
@@ -117,7 +117,7 @@ class Aula23
 
     Console.ForegroundColor = ConsoleColor.DarkYellow;
     // public static int lastIndexOf(array,valor);
-    Console.WriteLine("lastIndexOf");
+    Console.WriteLine("LastIndexOf");
     int indice2 = Array.LastIndexOf(vetor1, 3);
     Console.WriteLine("Indice do ultimo valor 3: {0}", indice2);
 
@@ -127,6 +127,7 @@ class Aula23
 
     // public static void Reverse(array);
     Console.ForegroundColor = ConsoleColor.Blue;
+    Console.WriteLine("Reverse");
     Array.Reverse(vetor1);
     foreach (int n in vetor1)
     {
@@ -139,6 +140,7 @@ class Aula23
 
     // public void SetValue(object valor, long pos);
     Console.ForegroundColor = ConsoleColor.Cyan;
+    Console.WriteLine("SetValue");
     vetor2.SetValue(99, 0);
     for (int i = 0; i < vetor2.Length; i++)
     {
@@ -154,11 +156,11 @@ class Aula23
 
 
     // public static void Sort (array);
+    Console.ForegroundColor = ConsoleColor.DarkBlue;
     Console.WriteLine("Sort");
     Array.Sort(vetor1);
     Array.Sort(vetor2);
     Array.Sort(vetor3);
-    Console.ForegroundColor = ConsoleColor.DarkBlue;
     Console.WriteLine("Vetor1");
     foreach (int n in vetor1)
     {
