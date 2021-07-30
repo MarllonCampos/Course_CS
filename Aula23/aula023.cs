@@ -105,8 +105,16 @@ class Aula23
     Console.ForegroundColor = ConsoleColor.Gray;
     Console.WriteLine("-----------------------------\n");
 
- 
 
+
+    Console.ForegroundColor = ConsoleColor.DarkYellow;
+    // public static int lastIndexOf(array,valor);
+    Console.WriteLine("lastIndexOf");
+    int indice2 = Array.LastIndexOf(vetor1, 3);
+    Console.WriteLine("Indice do ultimo valor 3: {0}", indice2);
+
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------\n");
 
 
 
