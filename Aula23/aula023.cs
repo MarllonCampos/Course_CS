@@ -97,15 +97,15 @@ class Aula23
 
 
     Console.ForegroundColor = ConsoleColor.DarkMagenta;
-    // public static int IndexOf(array,valor);
+    // public static int indexOf(array,valor);
     Console.WriteLine("indexOf");
-    int indice1 = Array.IndexOf(vetor1,3);
+    int indice1 = Array.IndexOf(vetor1, 3);
     Console.WriteLine("Indice do primeiro valor 3: {0}", indice1);
 
     Console.ForegroundColor = ConsoleColor.Gray;
     Console.WriteLine("-----------------------------\n");
 
-
+ 
 
 
 
