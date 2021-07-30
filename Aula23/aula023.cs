@@ -34,8 +34,18 @@ class Aula23
     Console.WriteLine("-----------------------------");
 
 
+    Console.ForegroundColor = ConsoleColor.Cyan;
+    // public static void Copy(Ar_origem, Ar_destino,qtd_elementos);
+    Console.WriteLine("Copy");
+    Array.Copy(vetor1, vetor2, vetor1.Length);
+    foreach (int n in vetor2)
+    {
+      Console.WriteLine(n);
+    }
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------");
 
-
+    
 
 
 
