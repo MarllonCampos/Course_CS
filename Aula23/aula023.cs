@@ -117,6 +117,17 @@ class Aula23
     Console.WriteLine("-----------------------------\n");
 
 
+    // public static void Reverse(array);
+    Console.ForegroundColor = ConsoleColor.Blue;
+    Array.Reverse(vetor1);
+    foreach (int n in vetor1)
+    {
+      Console.WriteLine(n);
+    }
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------\n");
+
+
 
 
 
