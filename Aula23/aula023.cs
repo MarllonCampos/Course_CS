@@ -31,7 +31,7 @@ class Aula23
     int pos = Array.BinarySearch(vetor1, procurado);
     Console.WriteLine("Valor {0} está na posição {1}", procurado, pos);
     Console.ForegroundColor = ConsoleColor.Gray;
-    Console.WriteLine("-----------------------------");
+    Console.WriteLine("-----------------------------\n");
 
 
     Console.ForegroundColor = ConsoleColor.Cyan;
@@ -43,7 +43,9 @@ class Aula23
       Console.WriteLine(n);
     }
     Console.ForegroundColor = ConsoleColor.Gray;
-    Console.WriteLine("-----------------------------");
+    Console.WriteLine("-----------------------------\n");
+
+
 
     Console.ForegroundColor = ConsoleColor.DarkBlue;
     //  public void CopyTo(Ar_destino, a_partir_desta_pos);
@@ -53,7 +55,28 @@ class Aula23
       Console.WriteLine(n);
     }
     Console.ForegroundColor = ConsoleColor.Gray;
-    Console.WriteLine("-----------------------------");
+    Console.WriteLine("-----------------------------\n");
+
+
+
+
+    Console.ForegroundColor = ConsoleColor.DarkCyan;
+    // public get LowerBound(dimensão);
+    Console.WriteLine("GetLowerBound");
+    int MenorIndiceVetor=vetor1.GetLowerBound(0);
+    int MenorIndiceMatriz_D1 = matriz.GetLowerBound(1);
+    Console.WriteLine("Menor índice do vetor1 {0}",MenorIndiceVetor);
+    Console.WriteLine("Menor índice da matriz da 1 coluna {0}", MenorIndiceMatriz_D1);
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------\n");
+
+
+
+   
+
+
+
+
 
 
 
