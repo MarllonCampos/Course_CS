@@ -91,7 +91,17 @@ class Aula23
     int valor1 = Convert.ToInt32(matriz.GetValue(1, 3));
     Console.WriteLine("Valor da posição 3 do vetor1: {0}", valor0);
     Console.WriteLine("Valor da linha 1 coluna 3 da matriz: {0}", valor1);
-    
+
+    Console.ForegroundColor = ConsoleColor.Gray;
+    Console.WriteLine("-----------------------------\n");
+
+
+    Console.ForegroundColor = ConsoleColor.DarkMagenta;
+    // public static int IndexOf(array,valor);
+    Console.WriteLine("indexOf");
+    int indice1 = Array.IndexOf(vetor1,3);
+    Console.WriteLine("Indice do primeiro valor 3: {0}", indice1);
+
     Console.ForegroundColor = ConsoleColor.Gray;
     Console.WriteLine("-----------------------------\n");
 
